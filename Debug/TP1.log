@@ -1,0 +1,11 @@
+﻿  keeper.cpp
+C:\Users\home\Desktop\TP1\TP1\keeper.cpp(104,10): error C3861: getline: идентификатор не найден
+C:\Users\home\Desktop\TP1\TP1\keeper.cpp(106,10): error C3861: stoi: идентификатор не найден
+C:\Users\home\Desktop\TP1\TP1\keeper.cpp(111,23): error C2061: синтаксическая ошибка: идентификатор "fishes"
+C:\Users\home\Desktop\TP1\TP1\keeper.cpp(118,23): error C2061: синтаксическая ошибка: идентификатор "birds"
+C:\Users\home\Desktop\TP1\TP1\keeper.cpp(125,23): error C2061: синтаксическая ошибка: идентификатор "cats"
+  main.cpp
+C:\Users\home\Desktop\TP1\TP1\headers.h(66,22): error C2061: синтаксическая ошибка: идентификатор "fishes"
+C:\Users\home\Desktop\TP1\TP1\headers.h(73,22): error C2061: синтаксическая ошибка: идентификатор "birds"
+C:\Users\home\Desktop\TP1\TP1\headers.h(80,22): error C2061: синтаксическая ошибка: идентификатор "cats"
+  Создание кода...
