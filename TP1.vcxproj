@@ -140,7 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="animal.h" />
+    <ClInclude Include="birds.h" />
+    <ClInclude Include="cats.h" />
+    <ClInclude Include="element.h" />
+    <ClInclude Include="fishes.h" />
     <ClInclude Include="headers.h" />
+    <ClInclude Include="keeper.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animal.cpp" />
