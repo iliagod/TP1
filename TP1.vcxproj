@@ -149,8 +149,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animal.cpp" />
+    <ClCompile Include="birds.cpp" />
+    <ClCompile Include="cats.cpp" />
+    <ClCompile Include="element.cpp" />
+    <ClCompile Include="fishes.cpp" />
     <ClCompile Include="keeper.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="txt.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
