@@ -19,8 +19,8 @@ public:
 	int get_size();
 	int pop();
 	void push(animal* obj);
-	int save_all();
-	int recover_all();
+	int save();
+	int recover();
 	bool isempty();
 	void show();
 	~Keeper();

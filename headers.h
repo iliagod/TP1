@@ -114,9 +114,14 @@ void starting()
 		{
 			if (!(keeper->pop()))
 			{
+				system("cls");
 				cout << "Удаление невозможно! Очередь пуста!" << endl;
 				system("pause");
+				continue;
 			}
+			system("cls");
+			cout << "Удаление прошло успешно!" << endl;
+			system("pause");
 			continue;
 		}
 		case 3:
@@ -141,7 +146,7 @@ void starting()
 			{
 			case 1:
 			{
-				if (keeper->save_all())
+				if (keeper->save())
 				{
 					cout << "Сохранение прошло успешно!" << endl;
 					system("pause");
@@ -154,7 +159,7 @@ void starting()
 					cout << "Ошибка перезаписи";
 				else
 				{
-					if (keeper->save_all())
+					if (keeper->save())
 						cout << "Сохранение прошло успешно!" << endl;
 				}
 				system("pause");
@@ -171,7 +176,7 @@ void starting()
 		}
 		case 4:
 		{
-			if ((keeper->recover_all()) != -1)
+			if ((keeper->recover()) != -1)
 				cout << "Восстановление прошло успешно!" << endl;
 			else
 				cout << "Файл пуст!" << endl;

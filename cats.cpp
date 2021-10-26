@@ -130,13 +130,13 @@ int cats::exception(string line)
 		{
 		case -2:
 		{
-			cout << "Название нельзя оставлять пустым!" << endl;
+			cout << "Необходимо заполнить название!" << endl;
 			system("pause");
 			return -2;
 		}
 		default:
 		{
-			cout << "Что-то пошло не так!" << endl;
+			cout << "Что-то пошло не так! Ошибка!" << endl;
 			system("pause");
 			break;
 		}

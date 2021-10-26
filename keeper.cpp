@@ -57,7 +57,7 @@ void Keeper::push(animal* obj)
 	size++;
 }
 
-int Keeper::save_all()
+int Keeper::save()
 {
 	int Size = size;
 	ofstream out("txt.txt", std::ios::app);
@@ -84,7 +84,7 @@ int Keeper::save_all()
 	return 1;
 }
 
-int Keeper::recover_all()
+int Keeper::recover()
 {
 	string line;
 	int res;
